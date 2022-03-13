@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        .mySlides {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <a id="home"></a>
+    <p>
+        <a href="#home"><img src="Nursing College Logo_page-0001 (1).jpg" alt="" id="floating-logo"></a>
+    </p>
+
+
+
+    <div class="continer-top">
+        <div class="nav-button1">
+            <button type="button" class="button1"><a href="#contact-form">Join Us</a></button>
+
+        </div>
+        <div class="navtop-container">
+            <a href="#contact-form" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+        </div>
+    </div>
+
+    <div class="navmiddle-container">
+        <div class="navmiddle-items">
+            <img src="Nursing College Logo_page-0001 (1).jpg" alt="">
+            <div class="navmiddle-subitems">
+                <h1>Hirai Institute of Nursing Education</h1>
+                <p>Malwadi, Masur, Tal Karad, Dist. Satara, Pin No 415106
+                </p>
+            </div>
+            <button type="button" onclick="location.href='#contact-form'">Join Us</button>
+        </div>
+    </div>
+
+    <header>
+        <div class="navbar">
+            <input type="checkbox" id="menu-bar">
+            <label for="menu-bar" class="hamburger">&#9776;</label>
+            <div class="nav-items">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li class="academics"><a href="">Academics</a>
+                        <ul class="dropdown">
+                            <li><a href="">Admission</a></li>
+                            <li><a href="">Academic Calender</a></li>
+                            <li><a href="">Syllabus</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Institute</a></li>
+                    <li><a href="">Faculty</a></li>
+                    <li>
+                        <a href="">Contact us</a>
+                    </li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <!-- **************************
+               NEWS TICKER 
+    ******************************-->
+    <div class="container-ticker">
+        <div class="ticker">
+            SPOTLIGHT
+        </div>
+        <div class="hwrap">
+            <div class="hmove">
+                <div class="hitem">Welcome to Hirai Institute of Education....&nbsp; Aliquam&nbsp;consequat&nbsp;varius&nbsp;consequat.&nbsp;</div>
+                <div class="hitem">&nbsp;Aliquam consequat varius consequat.&nbsp;</div>
+                <div class="hitem">&nbsp;Fusce dapibus turpis vel nisi malesuada sollicitudin.&nbsp;</div>
+                <div class="hitem">&nbsp;Pellentesque auctor molestie orci ut blandit.&nbsp;</div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- **************************
+                 SLIDER
+    ******************************-->
+    <div class="container">
+        <div class="container-slider" style="max-width:100%">
+            <img class="mySlides" src="img1.jpg" style="width:100%">
+            <img class="mySlides" src="img2.jpg" style="width:100%">
+            <img class="mySlides" src="img3.jpg" style="width:100%">
+        </div>
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                    myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 3000); // Change image every 2 seconds
+            }
+        </script>
+    </div>
+    <div class="container">
+        <div class="container-vm">
+            <h1>Our Vission and Mission</h1>
+            <div class="container-vi-mi">
+                <div class="mission">
+                    <h1>MISSION</h1>
+                    <p>To provide quality nursing education and prepare competent, global nursing professionals, capable of rendering highest level of companionate client care. To make contribution towards education and research in the field of Nursing.
+                        To fulfill comprehensive health care needs of the nation with holistic approach. To contribute the professional development of the faculties as per academic requirement.</p>
+                </div>
+                <div class="vision">
+                    <h1>VISION</h1>
+                    <p>To be recognized as an ideal model of nursing institution offering excellence in quality of authentic nursing education and genuinely serving holistic care to the mankind with sound communication skills , to promote research activities
+                        and turning out intellectually enlightened, morally upright , emotionally balanced and socially committed nurses.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="container-aboutus">
+            <img src="Nursing College Logo_page-0001 (1).jpg" alt="">
+            <h1>About Us</h1>
+            <div class="aboutus-incontent">
+                <div class="aboutus-main">
+                    <p>Hirai Institute of Nursing Education, Malwadi, Masur, Tal Karad, Dist. Satara, Pin No 415106 is a private nursing college established in the year 2020. It is affiliated to the Maharashtra University of Health Sciences, Nashik and has
+                        been approved by Govt of Maharashtra and Maharashtra Nursing Council Mumbai. The college offers B.Sc. Nursing at the UG level, GNM at Diploma level and ANM at Certificate course level respectively. Admissions to the courses are
+                        entrance-based and admission forms are available on the college’s website. The college is equipped with great academic, hospital, library facilities for an outstanding learning environment. College have five well equipped nursing
+                        Labs, e.g. Foundation lab, Ob/Gyn lab, community health nursing lab, nutrition lab, preclinical lab. All classrooms are well ventilated and equipped with projector. 40-seater bus is available for student for transportation purpose.
+                        Well qualified teaching staff is recruited. All scholarships are awarded to the students as per their category.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-message">
+        <h1>MESSAGES</h1>
+        <div class="message-content">
+            <div class="message-subcontent1">
+                <span><img src="precident.png" alt=""></span>
+                <p> <b>PRESIDENTS MESSAGE</b> <br> <strong>Mr. Dilipbhau Dadasaheb Chavan</strong> President of Shree Dhanalaxmi Foundation Karad’s Adv. Dadasaheb Chavan Group of Institutions. Hirai Institute of Nursing Education welcomes you to pursue higher
+                    nursing education not only in thrust areas but also in conventional field. Our college is expected to pursue an intellectual, social & physical requirements in which scholarship and nursing may thrive. It is a prime centre for nursing
+                    education in Satara district in the state of Maharashtra. It offers you the best opportunity for professional education and research programmes of high standards. I assure you of beautiful campus, well equipped laboratory and excellent
+                    faculties in the various departments. We welcome and encourage young aspirates to pursue their academic and social goals with joy.
+                </p>
+            </div>
+            <hr>
+            <div class="message-subcontent2">
+                <p> <b>PRINCIPALS MESSAGE</b> <br> Nursing is one of the most honourable and respectable profession in modern health care. But is also one of the most challenging. Yes, it’s not easy being a good nurse. Nursing, the largest of the health professions,
+                    plays a crucial role in determining national health outcomes. Care within the hospital setting continues to grow more complex, and nurses must make critical decisions associated with care for sicker, frailer patients. Care in this
+                    setting depends on sophisticated, life-saving technology coupled with complex information management systems that require skills in analysis and synthesis. Care outside the hospital is becoming more complex as well. Nurses are being
+                    called upon to coordinate care among a variety of clinicians and community agencies; to help patients manage chronic illnesses, thereby preventing acute care episodes and disease progression; and to use a variety of technological tools
+                    <a href="">read more</a>
+                    <!-- to improve the quality and effectiveness of care. A more educated nursing workforce would be better equipped to meet these demands. There is a ample opportunity for you to grow and to be an independent individual. Hirai Institute of
+                    Nursing education Malwadi, Masur, is a run by Shree Dhanlaxmi Foundation, Karad. Our college has the privilege to have healthy and harmonious ambience and the credit goes to the blessings of our elite college management and the diligence
+                    put in by learned teachers. The primary goals of nursing education remain the same: nurses must be prepared to meet diverse patients’ needs; function as leaders; and advance science that benefits patients and the capacity of health
+                    professionals to deliver safe, quality patient care. At the same time, nursing education needs to be transformed in a number of ways to prepare nursing graduates to work collaboratively and effectively with other health professionals
+                    in a complex and evolving health care system in a variety of settings. Hence improving the education system and achieving a more educated workforce is the need of the hour. Hirai Institute of Nursing Education as a team works on this
+                    philosophy without losing the essence of nursing. -->
+                </p>
+                <span><img src="principal.png" alt=""></span>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container-corevalues">
+        <h1>CORE VALUES</h1>
+        <div class="core-contents">
+            <div class="core-subcontents">
+                <div class="core-items">
+                    <img src="commitment.png" alt="">
+                    <h3>COMMITMENT</h3>
+                </div>
+                <div class="core-items">
+                    <img src="holistic.jpg" alt="">
+                    <h3>HOLISTIC APPROACH</h3>
+                </div>
+                <div class="core-items">
+                    <img src="competency.jpg" alt="">
+                    <h3>COMPETENTY</h3>
+                </div>
+                <div class="core-items">
+                    <img src="quality.jpg" alt="">
+                    <h3>QUALITY</h3>
+                </div>
+                <div class="core-items">
+                    <img src="excellence.jpg" alt="">
+                    <h3>EXCELLENCE </h3>
+                </div>
+            </div>
+            <div class="core-subcontents">
+                <div class="core-items">
+                    <img src="authentic.jpg" alt="">
+                    <h3> AUTHENTICITY</h3>
+                </div>
+                <div class="core-items">
+                    <img src="genuineness.jpg" alt="">
+                    <h3> GENUINESS</h3>
+                </div>
+                <div class="core-items">
+                    <img src="responsibility.jpg" alt="">
+                    <h3>RESPONSIBLITY</h3>
+                </div>
+                <div class="core-items">
+                    <img src="accountability.jpg" alt="">
+                    <h3> ACCOUNTABLITY</h3>
+                </div>
+                <div class="core-items">
+                    <img src="communication.jpg" alt="">
+                    <h3>COMMUNICATION SKILLS</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <a id="contact-form"></a>
+    <div class="container-main">
+        <div class="container-form">
+            <h2>Contact Form</h2>
+            <form class="form-horizontal" method="post" action="contact.php">
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <!-- name  -->
+                        <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" />
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-12">
+                        <!-- email  -->
+                        <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" />
+                    </div>
+                </div>
+
+                <!-- message  -->
+                <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message">
+        </textarea>
+                <div class="form-group">
+                    <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+            <i class="fa fa-paper-plane"></i>
+            <span class="send-text">SEND</span>
+          </button>
+                </div>
+
+            </form>
+            <!-- end of form -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="container-footer">
+
+            <div class="footer-items">
+                <img src="Nursing College Logo_page-0001 (1).jpg" alt="">
+                <h3>Hirai Institute of Nursing Education</h3>
+            </div>
+            <div class="footer-items">
+                <h3>IMPORTANT LINKS</h3>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <hr>
+                    <li><a href="#">Institute</a></li>
+                    <hr>
+                    <li><a href="#">Syllabus</a></li>
+                    <hr>
+                    <li><a href="#">Fees Structure</a></li>
+                    <hr>
+                    <!-- <li><a href="#">Join Us</a></li> -->
+                </ul>
+            </div>
+            <div class="footer-items">
+                <h3>Get In Touch</h3>
+                <p>Malwadi, Masur, Tal Karad, <br> Dist. Satara, Pin No 415106 <br><br> Contact No <br> 1. <a href="tel:9823591589">9823591589</a> <br> 2. <a href="tel:8999728869">8999728869</a> <br><br> Email ID : <a href="mailto:hiraiconmasur@gmail.com">hiraiconmasur@gmail.com</a>                    </p>
+
+            </div>
+            <div class="footer-items">
+                <h3>Social Links</h3>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>
+        </div>
+    </footer>
+    <div class="footer1">
+        <p>copyright 2022 © Hirai Institute of Nursing Education</p>
+    </div>
+</body>
+
+</html>
